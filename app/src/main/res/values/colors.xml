@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6095c4</color>
+    <color name="colorPrimaryDark">#3072a8</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="botao">#dea054</color>
+    <color name="sua_cor_pressionado">#cc3535</color>
+    <color name="sua_cor_default">#3193a0</color>
+    <color name="verde">#21d15c</color>
+    <color name="vermelho">#d12621</color>
+</resources>

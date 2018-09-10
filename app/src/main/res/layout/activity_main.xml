@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    android:background="#333333"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/forca"
+            android:layout_width="171dp"
+            android:layout_height="183dp"
+            android:src="@drawable/forca" />
+
+
+        <TextView
+            android:id="@+id/txtDica"
+            android:layout_width="131dp"
+            android:layout_height="99dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="casual"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="casual"
+            android:id="@+id/txtPalavra"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btnA"
+            android:textStyle="bold"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/botao"
+            android:fontFamily="casual"
+            android:onClick="verificarLetra"
+            android:text="A"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/btnB"
+            android:textStyle="bold"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/botao"
+            android:fontFamily="casual"
+            android:text="B"
+            android:onClick="verificarLetra"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/btnC"
+            android:textStyle="bold"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/botao"
+            android:onClick="verificarLetra"
+            android:fontFamily="casual"
+            android:text="C"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/btnD"
+            android:textStyle="bold"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/botao"
+            android:onClick="verificarLetra"
+            android:fontFamily="casual"
+            android:text="D"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/btnE"
+            android:textStyle="bold"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/botao"
+            android:onClick="verificarLetra"
+            android:fontFamily="casual"
+            android:text="E"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/btnF"
+            android:layout_width="40dp"
+            android:textStyle="bold"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/botao"
+            android:onClick="verificarLetra"
+            android:fontFamily="casual"
+            android:text="F"
+            android:textColor="#000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btnG"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:background="@color/botao"
+            android:onClick="verificarLetra"
+            android:fontFamily="casual"
+            android:text="G"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/btnH"
+            android:layout_width="40dp"
+            android:textStyle="bold"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/botao"
+            android:onClick="verificarLetra"
+            android:fontFamily="casual"
+            android:text="H"
+            android:textColor="#000" />
+        <Button
+            android:id="@+id/btnI"
+            android:layout_width="40dp"
+            android:textStyle="bold"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/botao"
+            android:onClick="verificarLetra"
+            android:fontFamily="casual"
+            android:text="I"
+            android:textColor="#000" />
+        <Button
+            android:id="@+id/btnJ"
+            android:layout_width="40dp"
+            android:textStyle="bold"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/botao"
+            android:onClick="verificarLetra"
+            android:fontFamily="casual"
+            android:text="J"
+            android:textColor="#000" />
+        <Button
+            android:id="@+id/btnK"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/botao"
+            android:onClick="verificarLetra"
+            android:fontFamily="casual"
+            android:text="K"
+            android:textColor="#000" />
+        <Button
+            android:id="@+id/btnL"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/botao"
+            android:onClick="verificarLetra"
+            android:fontFamily="casual"
+            android:text="L"
+            android:textColor="#000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btnM"
+            android:layout_width="40dp"
+            android:textStyle="bold"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/botao"
+            android:onClick="verificarLetra"
+            android:fontFamily="casual"
+            android:text="M"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/btnN"
+            android:layout_width="40dp"
+            android:textStyle="bold"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/botao"
+            android:onClick="verificarLetra"
+            android:fontFamily="casual"
+            android:text="N"
+            android:textColor="#000" />
+        <Button
+            android:id="@+id/btnO"
+            android:layout_width="40dp"
+            android:textStyle="bold"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/botao"
+            android:onClick="verificarLetra"
+            android:fontFamily="casual"
+            android:text="O"
+            android:textColor="#000" />
+        <Button
+            android:id="@+id/btnP"
+            android:layout_width="40dp"
+            android:textStyle="bold"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/botao"
+            android:onClick="verificarLetra"
+            android:fontFamily="casual"
+            android:text="P"
+            android:textColor="#000" />
+        <Button
+            android:id="@+id/btnQ"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/botao"
+            android:onClick="verificarLetra"
+            android:fontFamily="casual"
+            android:text="Q"
+            android:textColor="#000" />
+        <Button
+            android:id="@+id/btnR"
+            android:layout_width="40dp"
+            android:textStyle="bold"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/botao"
+            android:onClick="verificarLetra"
+            android:fontFamily="casual"
+            android:text="R"
+            android:textColor="#000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btnS"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/botao"
+            android:onClick="verificarLetra"
+            android:fontFamily="casual"
+            android:text="S"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/btnT"
+            android:layout_width="40dp"
+            android:textStyle="bold"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/botao"
+            android:onClick="verificarLetra"
+            android:fontFamily="casual"
+            android:text="T"
+            android:textColor="#000" />
+        <Button
+            android:id="@+id/btnU"
+            android:layout_width="40dp"
+            android:textStyle="bold"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/botao"
+            android:onClick="verificarLetra"
+            android:fontFamily="casual"
+            android:text="U"
+            android:textColor="#000" />
+        <Button
+            android:id="@+id/btnV"
+            android:layout_width="40dp"
+            android:textStyle="bold"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/botao"
+            android:onClick="verificarLetra"
+            android:fontFamily="casual"
+            android:text="V"
+            android:textColor="#000" />
+        <Button
+            android:id="@+id/btnW"
+            android:layout_width="40dp"
+            android:textStyle="bold"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/botao"
+            android:onClick="verificarLetra"
+            android:fontFamily="casual"
+            android:text="W"
+            android:textColor="#000" />
+        <Button
+            android:id="@+id/btnX"
+            android:layout_width="40dp"
+            android:textStyle="bold"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/botao"
+            android:onClick="verificarLetra"
+            android:fontFamily="casual"
+            android:text="X"
+            android:textColor="#000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btnY"
+            android:textStyle="bold"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/botao"
+            android:onClick="verificarLetra"
+            android:fontFamily="casual"
+            android:text="Y"
+            android:textColor="#000" />
+        <Button
+            android:id="@+id/btnZ"
+            android:layout_width="40dp"
+            android:textStyle="bold"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/botao"
+            android:onClick="verificarLetra"
+            android:fontFamily="casual"
+            android:text="Z"
+            android:textColor="#000" />
+    </LinearLayout>
+</LinearLayout>
